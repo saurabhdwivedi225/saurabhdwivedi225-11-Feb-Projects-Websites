@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+max-width: 1440px;
+background-color: #f0f4f5;
+overflow: hidden;
+margin: auto;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+.navbar{
+height: 15vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 50px;
+    margin-right: 130px;
+}
+nav img{
+    width: 150px;
+    margin-left: 160px;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;  
+}
+nav ul li a:hover{
+    color:rgb(230, 13, 165);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 650;
+}
+main{
+    height: 85vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+form{
+    width:280px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    margin: 3px;
+}
+form h1{
+    text-align: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+form div label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+form div input{
+    border: transparent;
+    height: 23px;
+    padding: 5px 10px;
+    border-radius: 8px;
+   
+}
+form div textarea{
+    resize: none;
+    height: 90px;
+    border: transparent;
+    border-radius: 10px;
+    padding:5x 9px;
+}
+button{
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    background-color:  #20BC7E;
+    margin-bottom: 5px;
+    border: transparent;
+}

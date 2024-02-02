@@ -1,0 +1,366 @@
+/* CSS reset */
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+font-family: 'Manrope', sans-serif;
+}
+body,html{
+    background-color: #EDF1F3;
+}
+
+header{
+    height: 140vh;
+background-image: url(/Photos/mainBackground.png);
+background-size: cover;
+background-repeat: no-repeat;
+/* width: 100vw; */
+}
+/* Designing Navbar of website  */
+nav {
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-top: 12px;
+}
+/* Navigation bar  image   */
+nav img{
+    width: 150px;
+}
+nav ul{
+    display: flex;  
+}
+nav ul li{
+    margin-right: 60px;
+    color: white;
+    font-size: 23px;
+    font-weight: 750;
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: #63e9a6;
+    font-size: 24px;
+    font-weight:800; 
+    text-decoration: underline; 
+}
+nav ul li a{
+    text-decoration: none;  
+}
+/* Deisigning horizontal line of navbar  */
+ .horizontal-line{
+   border-top: 4px solid rgb(209, 196, 196);
+   width: 80vw;
+  margin: 20px 0 115px 160px ; 
+} 
+.header-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:white;
+    margin-left:213px;
+}
+.header-description h2{
+    font-size: 101px;
+    font-weight: 400;
+   word-spacing: 6px;
+   line-height: 120px;
+}
+.header-description p{
+    font-size: 30px;
+font-weight:400;
+max-width: 700px;
+line-height: 36px;
+}
+.header-description  button{
+    color: white;
+    background:#6663e9;
+padding: 9px 70px;
+font-size: 25px;
+font-weight:800;
+border-radius: 25px;
+border: none;
+width: fit-content;
+}
+.mylogo{
+    border: 2px solid rgb(231, 213, 213);
+    margin-left: 11px;
+    width:97vw;
+    height: 70px;
+    background: rgb(249, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ margin-bottom: 90px;
+ border-radius: 12px;
+ margin-top:-35px ;
+}
+.mylogo img{
+    width: 120px;
+}
+/* Designing Estate Section  */
+.Estate-section{
+    width: auto;
+}
+.Estate-section h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+  padding-bottom: 90px;
+}
+/* Designing the wrapper section of the cards  */
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 531px 531px 531px;
+    row-gap: 150px;
+margin:0 0 80px 20px;
+}
+
+.card{
+border-radius: 8px;
+}
+.card2,.card5,.card8{
+padding-top: 35px;
+}
+.card3,.card4,.card9{
+    padding-top: 70px;   
+}
+/* Designing the card image  */
+.card-image{
+    width: 521px;
+    height: 540px;
+    border-radius: 30px;
+}
+.card-info{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+    width: 485px;
+    position: absolute;
+    z-index: 100;
+ margin-top: -80px;
+ margin-left: 17.5px;
+   border-radius: 18px;
+}
+.card-info p{
+font-size: 25px;
+font-weight: 800;
+}
+.card-info p span{
+    color: #6563E9;
+    font-size: 22px;
+}
+.card-info button{
+padding: 11px 27px;
+background: #6563E9;
+color: white;
+border-radius: 20px;
+font-size: 18px;
+border: none;
+}
+/* Designing first feature section  */
+.feature-section1{
+    display: flex;
+    justify-content: space-between;
+    margin: 290px 0 150px 0;
+}
+/* desinging the feature section1 image  */
+.feature-image1{
+    border-radius: 50px;
+    margin: -48px 0 0 148px;
+width: 584.7px;
+height:555px ;
+}
+.left-feature-section1{
+    background-image: url(/Icons/featureImageBg1.svg) 
+    ;
+   width: 800px;
+   height: 660px;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+/* desinging right feature section1  */
+.right-feature-section1{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+   padding: 75px 0px 0 0;
+}
+/* desinging right feature section1 hl  */
+.right-feature-section1 h1{
+    font-size: 82px;
+    font-weight: 800;
+}
+.right-feature-section1 p{
+    width: 600px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+}
+/* desinging right feature section button  */
+.right-feature-section1 button{
+    padding:10px ;
+    width: 244px;
+    border-radius: 18px;
+    border: none;
+    background: #6663e9;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+margin-top: 22px;
+}
+/* Desinging Feature Section2  */
+.feature-section2{
+    display: flex;
+}
+.left-feature-section2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+   padding: 120px 0px 0 45px; 
+}
+.left-feature-section2 h1{
+    font-size: 65px;
+    font-weight: 800;
+}
+.left-feature-section2 p{
+    font-size: 23px;
+    font-weight: 550;
+    line-height: 35px; 
+}
+.left-feature-section2 button{
+    padding:10px ;
+    width: 244px;
+    border-radius: 18px;
+    border: none;
+    background: #6663e9;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+margin-top: 15px;
+}
+.right-feature-section2{
+   position: relative;
+}
+.feature-imagebg2{
+    width: 1045px;
+    height: 660px;
+}
+.feature-image2{
+    position: absolute;
+    top:-90px;
+    left: 270px;
+    border-radius: 50px;
+width: 585.7px;
+height:592px ;
+z-index: 100;
+}
+/* Designing Newsletter section  */
+.Newsletter{
+    width: 1450px;
+    height: 600px;
+    margin: 78px;
+    background: #6663e9;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+}
+.Newsletter h1{
+    font-size: 85px;
+    font-weight: 800;
+}
+.Newsletter h1 span{
+padding-left: 45px;
+}
+.Newsletter p{
+    font-size: 26px;
+    font-weight: 500;
+    width: 800px;
+}
+
+.Newsletter div{
+     height: 61px;
+    width: 720px; 
+    background: #5654D1;
+    border-radius: 30px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding-left: 15px;
+  margin-right: 250px;
+}
+input{
+    background: transparent;
+    border: none;
+    color: rgb(52, 32, 5);
+    font-size: 19px;
+    font-weight: 550;
+}
+/* desinging newsletter button  */
+.Newsletter button{
+    padding:17px 55px;
+    font-weight: 700;
+    color: #6563E9;
+    font-size: 23px;
+    border-radius: 28px;
+    border: none;
+    margin: -82px -120px 0 610px ;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+}
+/* Designing Footer of the Website  */
+footer{
+    display: flex;
+    margin: 130px 110px 130px 95px;
+}
+.footer-logo{
+width: 200px;
+}
+/* Desinging the social links  */
+.social-links{
+display: flex;
+margin: 60px 0;
+gap:35px;
+}
+.footer-description{
+    width: 30%;
+    padding-top: 8px;
+}
+.footer-description p{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 60px 0 0;
+    line-height: 37px;
+}
+/* Desgining footer links  */
+.footer-links{
+display: flex;
+gap: 150px;
+padding-left: 260px;
+}
+.footer-links-content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-links-content ul li{
+list-style: none;
+cursor: pointer;
+font-size: 25px;
+font-weight: 650;
+}
+.footer-links-content a{
+    text-decoration: none;
+    color:black;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 800;
+}

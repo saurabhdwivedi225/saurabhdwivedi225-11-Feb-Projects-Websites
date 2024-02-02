@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow: hidden;
+    max-width: 1440px;
+    margin: auto;
+    background-color: #f0f4f5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+/* Designing the navigation menu  */
+.navbar{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Designing the logo  */
+nav img{
+    width: 150px;
+    margin-left: 130px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color:rgb(230, 13, 165);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 650;
+}
+/* Designing the main-section  */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main div {
+    width: 50%;
+}
+.left-main{
+   margin-left: 9%;
+   margin-bottom: 20;
+   position: relative;
+}
+.topAngle{
+    width: 25px;
+}
+
+.left-main h1{
+font-size: 58px;
+font-weight: 700;
+max-width: 500px;
+}
+.left-main p{
+    color: #7c7c7c;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.bottomAngle{
+    width: 25px;
+    position: absolute;
+    right: 70px;
+}
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -90px;
+    right: -19%;
+    z-index: -1;
+}
+.mouse{
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+    /* top: 8px; */
+    width: 30px;
+}
+.left-main button{
+    background-color:#20BC7E ;
+    color: white;
+    padding:9px 35px;
+    border-radius: 25px;
+    margin-top:1%;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* Designing the right section */
+    .greenBox,.yellowBox{
+    position: absolute;
+    right: 0;
+    }
+.greenBox{
+    width: 27%;
+    bottom: 30px;
+}
+.yellowBox{
+    width: 15%;
+    bottom: 50px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
